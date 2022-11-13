@@ -263,14 +263,18 @@ button {
 
 .button-close {
   display: flex;
-  width: 30px;
-  height: 30px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: auto;
   justify-content: center;
   align-items: center;
   border: none;
+  padding: 0;
+}
+
+.img-button-close {
+  width: 100%;
+  height: 100%;
 }
 
 /* Наші переваги та вміння */
