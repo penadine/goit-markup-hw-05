@@ -624,6 +624,7 @@ button {
 }
 
 .portfolio-image {
+  display: block;
   position: relative;
   overflow: hidden;
 }
