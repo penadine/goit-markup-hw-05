@@ -140,6 +140,7 @@ button {
 .mail-tel .tel:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .mail-tel {
@@ -224,6 +225,7 @@ button {
   border-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: transform 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -405,6 +407,7 @@ button {
 .team-people .social-link:focus {
   fill: #ffffff;
   background-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .social-item {
@@ -457,6 +460,7 @@ button {
 .clients-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 /* Підвал сторінки */
@@ -501,6 +505,7 @@ button {
 .contact .tel:hover,
 .contact .tel:focus {
   color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 /* Приєднуйтесь */
@@ -568,6 +573,7 @@ button {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  cursor: pointer;
 }
 
 /* Радіокнопки при наведенні */
@@ -579,6 +585,7 @@ button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .work {
@@ -602,6 +609,7 @@ button {
 .work .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: transform 250ms var(--timing-function);
 }
 
 .work .portfolio-action {
@@ -639,6 +647,7 @@ button {
 
 .portfolio-overlay {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
@@ -667,4 +676,5 @@ button {
 
 .portfolio-image:hover .portfolio-action {
   opacity: 90%;
+  transition: transform 250ms var(--timing-function);
 }
